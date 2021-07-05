@@ -6,20 +6,25 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-align: justify;
+}
 .name_color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half_width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 8%;
 }
 .half_width img{
-    width: 70%;
+    width: 80%;
 }
-.hire_me{
+.link_button{
     text-decoration: none;
     background-image: linear-gradient(rgb(204, 141, 24) , tomato );
     padding: 10px 30px;
@@ -32,4 +37,9 @@ section{
     background-image: url(image//top-banner.png);
     background-repeat: no-repeat;
    
+}
+.big_dream{
+    background-image: url(image/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
